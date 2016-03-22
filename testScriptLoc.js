@@ -89,55 +89,55 @@ google.maps.event.addDomListener(window, "load", function () {
         position: new google.maps.LatLng(41.555770, -72.659050),
         map: map,
         icon: "images/markers/redOakMarker.png"
-      }, "<h1>Red Oak</h1><center><img src='images/mainPic/redOak1.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Red Oak</h1><center><img src='images/mainPic/redOak1.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
       
       var marker3 = createMarker({
         position: new google.maps.LatLng(41.555819, -72.658677),
         map: map,
         icon: "images/markers/redOakMarker.png"
-      }, "<h1>Red Oak</h1><center><img src='images/mainPic/redOak2.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Red Oak</h1><center><img src='images/mainPic/redOak2.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
 
       var marker4 = createMarker({
         position: new google.maps.LatLng(41.556014, -72.658722),
         map: map,
         icon: "images/markers/redOakMarker.png"
-      }, "<h1>Red Oak</h1><center><img src='images/mainPic/redOak3.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Red Oak</h1><center><img src='images/mainPic/redOak3.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
 
       var marker5 = createMarker({
         position: new google.maps.LatLng(41.555940, -72.658762),
         map: map,
         icon: "images/markers/sugarMarker.png"
-      }, "<h1>Sugar Maple</h1><center><img src='images/mainPic/sugarMaple2.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Sugar Maple</h1><center><img src='images/mainPic/sugarMaple2.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
 
       var marker6 = createMarker({
         position: new google.maps.LatLng(41.555085, -72.658552),
         map: map,
         icon: "images/markers/redOakMarker.png"
-      }, "<h1>Red Oak</h1><center><img src='images/mainPic/redOak4.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Red Oak</h1><center><img src='images/mainPic/redOak4.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
 
       var marker7 = createMarker({
         position: new google.maps.LatLng(41.555250, -72.658861),
         map: map,
         icon: "images/markers/hemlockMarker.png"
-      }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock1.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock1.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
       
       var marker8 = createMarker({
         position: new google.maps.LatLng(41.555146, -72.658907),
         map: map,
         icon: "images/markers/hemlockMarker.png"
-      }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock2.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock2.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
       
       var marker9 = createMarker({
         position: new google.maps.LatLng(41.555166, -72.658835),
         map: map,
         icon: "images/markers/hemlockMarker.png"
-      }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock3.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock3.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
       
       var marker10 = createMarker({
         position: new google.maps.LatLng(41.555154, -72.658745),
         map: map,
         icon: "images/markers/hemlockMarker.png"
-      }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock4.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#.html>Click here for this tree's page</a></div>");
+      }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock4.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
 
      
     };
