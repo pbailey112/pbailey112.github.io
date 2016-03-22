@@ -40,29 +40,6 @@ google.maps.event.addDomListener(window, "load", function () {
     }
     return marker;
   }
-
-
-  var lat;
-  var lon;
-
-  
-
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      lat = position.coords.latitude;
-      lon = position.coords.longitude;
-      mainFunction();
-    }, function() {
-      lat = "error";
-      lon = "error";
-      mainFunction();
-    });
-  } else {
-    lat = "blank";
-    lon = "blank";
-    mainFunction();
-  };
-
   
   
 
