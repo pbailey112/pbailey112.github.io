@@ -42,7 +42,7 @@ google.maps.event.addDomListener(window, "load", function () {
   }
   
   
-
+window.alert("test1")
 
 
   
