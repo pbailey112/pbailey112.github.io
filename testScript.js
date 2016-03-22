@@ -83,7 +83,7 @@ google.maps.event.addDomListener(window, "load", function () {
         position: new google.maps.LatLng(41.555800, -72.658928),
         map: map,
         icon: "images/markers/sugarMarker.png" 
-      }, "<h1>Sugar Maple</h1><center><img src='images/mainPic/sugarMaple1.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=#>Click here for this tree's page</a></div>");
+      }, "<h1>Sugar Maple</h1><center><img src='images/mainPic/sugarMaple1.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=pageHTML.html>Click here for this tree's page</a></div>");
 
       var marker2 = createMarker({
         position: new google.maps.LatLng(41.555770, -72.659050),
