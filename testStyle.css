@@ -1,0 +1,122 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font: 12px sans-serif;
+  height: 100%;
+}
+
+header {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: rgb(34, 34, 34);
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-color: darkgrey;
+}
+
+ul#topList {
+	padding: 10px;
+	margin: 0;
+	margin-right: 17px;
+	height: 100%;
+}
+
+li {
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+	height: 100%;
+}
+
+a.headerItem {
+	color: white;
+	text-decoration: none;
+	padding: 14px;
+	height: 100%;
+}
+a.headerItem:hover {
+	background: darkgrey;
+}
+
+
+
+h1, p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+	padding-bottom: 10px;
+}
+div#wrapper {
+	height: 100%;
+}
+
+/*
+header {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	background: darkgrey;
+}
+
+
+
+
+
+ul#topList {
+	padding: 10px;
+	margin: 0;
+}
+li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+a.headerItem {
+	color: white;
+	text-decoration: none;
+}
+*/
+
+div#map_div {
+	height: calc(100% - 42px);
+	bottom: 0;
+}
+
+img { 
+   border:1px solid #021a40;
+}
+
+.buttDiv {
+	text-align: center
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #a6827e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a6827e;
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background-color:#7d5d3b;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+.myButton:hover {
+	background-color:#634b30;
+}
