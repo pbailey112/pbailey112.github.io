@@ -68,9 +68,7 @@ google.maps.event.addDomListener(window, "load", function () {
 
 
 
-  function mainFunction() {
-
-    if (true  /*lat >= 30 && lat <= 42 && lon >= -80 && lon <= -72*/) {
+  
       
       /*
       var marker0 = createMarker({
@@ -140,6 +138,6 @@ google.maps.event.addDomListener(window, "load", function () {
       }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock4.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=pageHTML.html>Click here for this tree's page</a></div>");
 
      
-    };
-  };
+
+
 });
