@@ -27,6 +27,8 @@ google.maps.event.addDomListener(window, "load", function () {
    */
   var infoWindow = new google.maps.InfoWindow();
 
+window.alert("test")
+
   /*
    * marker creater function (acts as a closure for html parameter)
    */
@@ -59,6 +61,8 @@ window.alert("test1")
         map: map,
         icon: "images/markers/sugarMarker.png" 
       }, "<h1>Sugar Maple</h1><center><img src='images/mainPic/sugarMaple1.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=pageHTML.html>Click here for this tree's page</a></div>");
+
+      window.alert("test2")
 
       var marker2 = createMarker({
         position: new google.maps.LatLng(41.555770, -72.659050),
