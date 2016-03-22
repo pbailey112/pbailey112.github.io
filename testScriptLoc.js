@@ -70,7 +70,7 @@ google.maps.event.addDomListener(window, "load", function () {
 
   function mainFunction() {
 
-    if (lat >= 30 && lat <= 42 && lon >= -80 && lon <= -72) {
+    if (true  /*lat >= 30 && lat <= 42 && lon >= -80 && lon <= -72*/) {
       
       /*
       var marker0 = createMarker({
