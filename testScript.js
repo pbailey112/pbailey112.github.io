@@ -70,8 +70,9 @@ google.maps.event.addDomListener(window, "load", function () {
 
   function mainFunction() {
 
-    if (lat >= 30 && lat <= 50 && lon >= -300 && lon <= -10) {
-      
+    if (lat >= 41.554841 && lat <= 41.556455 && lon >= -72.659073 && lon <= -72.658372) {
+
+
       /*
       var marker0 = createMarker({
         position: new google.maps.LatLng(41.555439, -72.658839),
@@ -140,6 +141,12 @@ google.maps.event.addDomListener(window, "load", function () {
       }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock4.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=pages/hemlock4.html>Click here for this tree's page</a></div>");
 
      
-    };
+    } else {
+      var marker11 = createMarker({
+        position: new google.maps.LatLng(41.555439, -72.658839),
+        map: map
+      }, "<h1>You're not on Foss!</h1><p>Head over to Foss to look at the trees, or check out the 'About' and 'Tree List' pages in the mean time.</p>");
+
+      ;
   };
 });
