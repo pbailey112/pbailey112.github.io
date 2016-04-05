@@ -11,7 +11,7 @@ google.maps.event.addDomListener(window, "load", function () {
   var map = new google.maps.Map(document.getElementById("map_div"), {
     center: new google.maps.LatLng(41.555439, -72.658839),
     zoom: 18,
-    minZoom: 17,
+    minZoom: 18,
     mapTypeId: google.maps.MapTypeId.SATELLITE
   });
   map.setHeading(270);
