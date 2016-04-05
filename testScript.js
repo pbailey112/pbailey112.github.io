@@ -1,35 +1,24 @@
 
 
-/*
- * declare map as a global variable
- */
+
 var map;
 
 
-/*
- * use google maps api built-in mechanism to attach dom events
- */
+
 google.maps.event.addDomListener(window, "load", function () {
 
-  /*
-   * create map
-   */
+
   var map = new google.maps.Map(document.getElementById("map_div"), {
     center: new google.maps.LatLng(41.555439, -72.658839),
     zoom: 18,
     mapTypeId: google.maps.MapTypeId.SATELLITE
   });
   map.setHeading(270);
-  MapOptions.minZoom(17);
+  map.MapOptions.minZoom(17);
 
-  /*
-   * create infowindow (which will be used by markers)
-   */
   var infoWindow = new google.maps.InfoWindow();
 
-  /*
-   * marker creater function (acts as a closure for html parameter)
-   */
+
   function createMarker(options, html) {
     var marker = new google.maps.Marker(options);
     if (html) {
