@@ -70,15 +70,8 @@ google.maps.event.addDomListener(window, "load", function () {
 
   function mainFunction() {
 
-    if (lat >= 41.554841 && lat <= 41.556455 && lon >= -72.659073 && lon <= -72.658372) {
-
-
-      /*
-      var marker0 = createMarker({
-        position: new google.maps.LatLng(41.555439, -72.658839),
-        map: map
-      }, "<div id='info'><h1>Foss Hill</h1><p>This is the home marker.</p><p>Your location is:</p> <p>"+ lat + ", " + lon +"</p> <br> <center><img src='images/mainPic/foss-hill.jpg' width=200></img></center></div>");
-      */
+    /*if (lat >= 41.554841 && lat <= 41.556455 && lon >= -72.659073 && lon <= -72.658372) {
+    */
 
       var marker1 = createMarker({
         position: new google.maps.LatLng(41.555800, -72.658928),
@@ -141,12 +134,12 @@ google.maps.event.addDomListener(window, "load", function () {
       }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock4.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=pages/hemlock4.html>Click here for this tree's page</a></div>");
 
      
-    } else {
+    /*} else {
       var marker11 = createMarker({
         position: new google.maps.LatLng(41.555439, -72.658839),
         map: map
       }, "<h1>You're not on Foss!</h1><p>Head over to Foss to look at the trees, or check out the 'About' and 'Tree List' pages in the mean time.</p>");
-    };
+    };*/
 
   };
 });
