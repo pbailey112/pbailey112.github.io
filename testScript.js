@@ -20,7 +20,7 @@ google.maps.event.addDomListener(window, "load", function () {
     mapTypeId: google.maps.MapTypeId.SATELLITE
   });
   map.setHeading(270);
-
+  MapOptions.minZoom(17);
 
   /*
    * create infowindow (which will be used by markers)
