@@ -13,7 +13,8 @@ google.maps.event.addDomListener(window, "load", function () {
     zoom: 18,
     minZoom: 18,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
-    heading: 270
+    heading: 270,
+    streetViewControl: false,
   });
   //map.setHeading(270);
 
