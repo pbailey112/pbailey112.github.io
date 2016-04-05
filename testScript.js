@@ -146,6 +146,7 @@ google.maps.event.addDomListener(window, "load", function () {
         position: new google.maps.LatLng(41.555439, -72.658839),
         map: map
       }, "<h1>You're not on Foss!</h1><p>Head over to Foss to look at the trees, or check out the 'About' and 'Tree List' pages in the mean time.</p>");
+    };
 
   };
 });
