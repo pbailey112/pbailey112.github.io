@@ -14,7 +14,7 @@ google.maps.event.addDomListener(window, "load", function () {
     mapTypeId: google.maps.MapTypeId.SATELLITE
   });
   map.setHeading(270);
-  map.MapOptions.minZoom(17);
+  google.maps.MapOptions.minZoom = 17;
 
   var infoWindow = new google.maps.InfoWindow();
 
