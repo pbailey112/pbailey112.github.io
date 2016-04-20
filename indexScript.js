@@ -125,7 +125,7 @@ google.maps.event.addDomListener(window, "load", function () {
       }, "<h1>Hemlock</h1><center><img src='images/mainPic/hemlock4.jpg' height=175></img></center><br><div class='buttDiv'><a class='myButton' href=pages/hemlock4.html>Click here for this tree's page</a></div>");
 
      
-    } /*else {
+  /*  } else {
       var marker11 = createMarker({
         position: new google.maps.LatLng(41.555439, -72.658839),
         map: map
