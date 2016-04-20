@@ -22,10 +22,12 @@ header {
 	border-color: darkgrey;
 }
 
-ul#topList {
+ul#navBar {
 	padding: 10px;
 	margin: 0;
+	margin-right: 17px;
 	height: 100%;
+	overflow:hidden;
 }
 
 li {
@@ -35,13 +37,13 @@ li {
 	height: 100%;
 }
 
-a.headerItem {
+a.navBarItem {
 	color: white;
 	text-decoration: none;
 	padding: 14px;
 	height: 100%;
 }
-a.headerItem:hover {
+a.navBarItem:hover {
 	background: darkgrey;
 }
 
@@ -71,3 +73,4 @@ div#disqus_thread {
 	margin: auto;
 	max-width: 600px;
 }
+

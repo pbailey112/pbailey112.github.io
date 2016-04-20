@@ -1,58 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>test Tree page</title>
-	<link rel="stylesheet" type="text/css" href="pageStyle.css" />
+	<title>Foss Red Oak #4</title>
+	<link rel="stylesheet" type="text/css" href="/pages/w3.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="pageScript.js"></script>
 </head>
 
 <body>
 
-	<header>
-		<ul id="topList">
-			<li><a class="headerItem" href="/index.html">Home</a></li>
-			<li><a class="headerItem" href="#">About</a></li>
-			<li><a class="headerItem" href="#">Tree list</a></li>
-		</ul>
-	</header>
-	<div id="main">
 
+	<nav class="w3-sidenav w3-large w3-collapse w3-white w3-card-2 w3-animate-left" style="width:200px;">
+	  <a href="javascript:void(0)" onclick="w3_close()" 
+	  class="w3-closenav w3-small w3-hide-large w3-padding-hor-24">Close &times;</a>
+	  <a href="/index.html" class="w3-padding-hor-24">Home</a>		
+	  <a href="/about.html" class="w3-padding-hor-24">About</a>
+	</nav>
 
-		<div>
+	<div class="w3-main" style="margin-left:200px; text-align:center">
+		<header class="w3-container w3-red">
+		  <span class="w3-opennav w3-xxlarge w3-hide-large w3-left" onclick="w3_open()">&#9776;</span>
+		  <h2 style="padding-left:50px; text-align: center">Northern Red Oak (<i>Quercus rubra</i>)</h2>
+		</header>
 
-			<h1 class="commonName">Red Oak</h1>
-			<h2 class="latinName">(Quercus rubra)</h2>
-			<center><img src="/images/mainPic/redOak4.jpg" width=250></center>
+		<br>
+		<center><img src="/images/mainPic/redOak4.jpg" width=250></center>
 
+		<br>
 
+		<div class="w3-container">
+
+		  	<div class="w3-accordion w3-light-grey" style="width:70%; margin:0 auto">
+			  <button onclick="accordianFunc('species')" class="w3-btn-block w3-left-align w3-dark-grey w3-border-bottom w3-large">Species info  &#9662</button>
+			  <div id="species" class="w3-accordion-content w3-container">
+			    <p>Northern red oaks provide many benefits to their surrounding environment: ample shade, rich fall colors, and acorns for animals to snack on. Prevalent in much of the eastern US, red oaks are able to grow into the uppermost layers of the forest canopy and can live for up to 500 years. This species, as with other oaks, can struggle to regenerate in the forest setting due to grazing deer and competition from other tree species.</p>
+			  </div>
+			  <button onclick="accordianFunc('comments')" class="w3-btn-block w3-left-align w3-dark-grey w3-large">Comments  &#9662</button>
+			  <div id="comments" class="w3-accordion-content w3-container">
+			    <div id="disqus_thread" style="	padding: 15px;margin: auto;max-width: 600px"> </div>
+			  </div>
+			</div>
+			<br>
 		</div>
-
-		<div id="disqus_thread"> </div>
-
+	     
 	</div>
-<script>
-/**
-* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
 
-s.src = '//treesite.disqus.com/embed.js';
+	<script>
+	function w3_open() {
+	    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+	}
+	function w3_close() {
+	    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+	}
 
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	function accordianFunc(id) {
+	    var x = document.getElementById(id);
+	    if (x.className.indexOf("w3-show") == -1) {
+	        x.className += " w3-show";
+	    } else { 
+	        x.className = x.className.replace(" w3-show", "");
+	    }
+	}
 
+
+	
+	/**
+	* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+	*/
+	/*
+	var disqus_config = function () {
+	this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	*/
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+
+	s.src = '//westrees.disqus.com/embed.js';
+
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 
 </body>

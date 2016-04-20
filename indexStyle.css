@@ -19,11 +19,12 @@ header {
 	border-color: darkgrey;
 }
 
-ul#topList {
+ul#navBar {
 	padding: 10px;
 	margin: 0;
 	margin-right: 17px;
 	height: 100%;
+	overflow:hidden;
 }
 
 li {
@@ -33,13 +34,13 @@ li {
 	height: 100%;
 }
 
-a.headerItem {
+a.navBarItem {
 	color: white;
 	text-decoration: none;
 	padding: 14px;
 	height: 100%;
 }
-a.headerItem:hover {
+a.navBarItem:hover {
 	background: darkgrey;
 }
 
@@ -53,38 +54,6 @@ h1, p {
 h1 {
 	padding-bottom: 10px;
 }
-div#wrapper {
-	height: 100%;
-}
-
-/*
-header {
-	text-align: center;
-	padding: 0;
-	margin: 0;
-	height: 40px;
-	background: darkgrey;
-}
-
-
-
-
-
-ul#topList {
-	padding: 10px;
-	margin: 0;
-}
-li {
-	display: inline;
-	padding: 0px 20px 0px 20px;
-	font-size: 16px;
-	font-weight: bold;
-}
-a.headerItem {
-	color: white;
-	text-decoration: none;
-}
-*/
 
 div#map_div {
 	height: calc(100% - 42px);
